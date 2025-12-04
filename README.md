@@ -1,16 +1,16 @@
 ## Code for paper: Exploring Entropy Landscapes using Hard Particle Metadynamics
 
-In paper, *Exploring Entropy Landscapes using Hard Particle Metadynamics*, we introduce a new algorithm that integrates the Hard Particle Monte Carlo scheme with Metadynamics, which we term "HPMetaD".
+In paper, *Exploring Entropy Landscapes using Hard Particle Metadynamics*, we introduce a new algorithm that integrates the Hard Particle Monte Carlo scheme with Metadynamics, which we term "HPMCMetaD".
 
-To perform HPMetaD simulations, we implemented the algorithm as a [HOOMD-blue](https://hoomd-blue.readthedocs.io/en/v5.4.0/) custom updater, and we provide a minimal example in this repository:
+To perform HPMCMetaD simulations, we implemented the algorithm as a [HOOMD-blue](https://hoomd-blue.readthedocs.io/en/v5.4.0/) custom updater, and we provide a minimal example in this repository:
 
-`simulation.ipynb` - HPMetaD simulation of N = 50 $S_2$ particles (see paper for shape definition).
+`simulation.ipynb` - HPMCMetaD simulation of N = 50 $S_2$ particles (see paper for shape definition).
 
 `colvar.py` – Implementation of several commonly used order parameters, used in `hpmetad.py`. Modify this file to include custom collective variables.
 
-`hpmetad.py` – Implementation of the HPMetaD algorithm.
+`hpmetad.py` – Implementation of the HPMCMetaD algorithm.
 
-`restart.ipynb` - Restart and continue the HPMetaD simulation.
+`restart.ipynb` - Restart and continue the HPMCMetaD simulation.
 
 `analysis.ipynb` - Analyze the simulation data for, e.g., checking the acceptance rate, collective variable/bia potential vs time, and plotting the free energy profile.
 
