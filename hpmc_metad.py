@@ -5,7 +5,7 @@ from hoomd.custom import Action
 from hoomd.logging import log
 from colvar import Colvar
 
-class HPMetaD(Action):
+class HPMCMetaD(Action):
     def __init__(
         self,
         sim: hoomd.Simulation,
