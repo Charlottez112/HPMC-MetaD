@@ -1,6 +1,6 @@
-## Code for paper: Exploring Entropy Landscapes using Hard Particle Metadynamics
+## Code for paper: Exploring Entropy Landscapes Using Hard Particle Monte Carlo Metadynamics
 
-In paper, *Exploring Entropy Landscapes using Hard Particle Metadynamics*, we introduce a new algorithm that integrates the Hard Particle Monte Carlo scheme with Metadynamics, which we term "HPMC-MetaD".
+In paper, *Exploring Entropy Landscapes Using Hard Particle Monte Carlo Metadynamics*, we introduce a new algorithm that integrates the Hard Particle Monte Carlo scheme with Metadynamics, which we term "HPMC-MetaD".
 
 To perform HPMC-MetaD simulations, we implemented the algorithm as a [HOOMD-blue](https://hoomd-blue.readthedocs.io/en/v5.4.0/) custom updater, and we provide a minimal example in this repository:
 
